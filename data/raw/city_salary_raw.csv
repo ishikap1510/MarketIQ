@@ -1,0 +1,11 @@
+city,state,raw_salary,cost_index,visa_friendly_score,h1b_approvals_pct,job_postings_count
+San Francisco,CA,95000,100,90,88,4200
+New York,NY,88000,92,85,82,5100
+Seattle,WA,86000,88,88,85,3100
+Chicago,IL,72000,70,78,74,2800
+Austin,TX,74000,72,80,76,2200
+Boston,MA,80000,85,86,84,2600
+Washington DC,DC,83000,82,92,91,3400
+Atlanta,GA,68000,62,74,70,1900
+Dallas,TX,70000,65,77,73,2100
+Denver,CO,75000,76,79,76,1800

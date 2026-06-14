@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Opportunity Index — DA Career Markets</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h1>The Opportunity Index</h1>
+      <p class="subtitle">Benchmarking Data Analyst Career Markets Across the US</p>
+    </header>
+
+    <section class="description">
+      <p>
+        A rigorous data science analysis answering three career strategy questions for
+        entry-level Data Analysts: which US cities offer the strongest purchasing power,
+        which certifications deliver the highest ROI, and which technical skills are
+        most in demand. Built with OLS regression, K-Means clustering, and Decision Tree
+        classification across simulated BLS, Numbeo, USCIS, and job-posting data.
+      </p>
+    </section>
+
+    <section class="tools">
+      <span class="badge">Python</span>
+      <span class="badge">Pandas</span>
+      <span class="badge">scikit-learn</span>
+      <span class="badge">statsmodels</span>
+      <span class="badge">Seaborn</span>
+      <span class="badge">Matplotlib</span>
+    </section>
+
+    <section class="findings">
+      <h2>Key Findings</h2>
+      <ul>
+        <li>
+          <strong>Atlanta and Dallas lead on real purchasing power</strong> — Atlanta's $68K nominal
+          salary normalises to ~$76,774 at Chicago cost levels, ranking #1 of 10 cities analysed.
+        </li>
+        <li>
+          <strong>Cost of living explains 87% of nominal salary variance</strong> (OLS R²=0.87,
+          p&lt;0.001) — confirming that coastal salary premiums are largely cost compensation,
+          not genuine wealth gains.
+        </li>
+        <li>
+          <strong>SQL Advanced (HackerRank) delivers $2,100/week ROI at zero cost</strong> — the
+          fastest and cheapest path to a measurable salary uplift of any certification studied.
+        </li>
+        <li>
+          <strong>K-Means identifies three city archetypes</strong>: High-cost/high-nominal
+          (SF, NYC, Seattle), Hidden-gem value markets (Atlanta, Dallas, Chicago), and
+          Visa-friendly government hubs (DC, Boston).
+        </li>
+        <li>
+          <strong>SQL appears in 87% of job postings</strong> — 23 percentage points above Python
+          (72%), making it the single non-negotiable skill for entry-level DA candidates.
+        </li>
+      </ul>
+    </section>
+
+    <section class="cta">
+      <a href="#" class="btn">View Full Analysis on GitHub</a>
+    </section>
+
+    <footer>
+      <p>
+        Data sources: Bureau of Labor Statistics OES · Numbeo Cost of Living Index ·
+        USCIS H-1B Employer Data Hub · LinkedIn / Indeed / Glassdoor aggregates (2024–2025).
+        All data simulated for portfolio demonstration purposes.
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
