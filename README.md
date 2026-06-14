@@ -1,4 +1,4 @@
-# The Opportunity Index
+# MarketIQ
 **Benchmarking Data Analyst Career Markets Across the US**
 
 A rigorous, end-to-end data science project answering three career strategy questions for entry-level Data Analysts using statistical modelling and machine learning.
