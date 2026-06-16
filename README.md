@@ -1,7 +1,7 @@
 # MarketIQ
 **Benchmarking Data Analyst Career Markets Across the US**
 
-**Live Site:** [ishikap1510.github.io/MarketIQ](https://ishikap1510.github.io/MarketIQ)
+**Notebook:** [View Full Analysis on GitHub](https://github.com/ishikap1510/MarketIQ/blob/main/analysis/opportunity_index.ipynb)
 
 A rigorous, end-to-end data science project answering three career strategy questions for entry-level Data Analysts using statistical modelling and machine learning.
 
