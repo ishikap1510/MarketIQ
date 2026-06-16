@@ -113,8 +113,6 @@ opportunity-index/
 │       └── city_salary_raw.csv     ← Simulated raw city salary data
 ├── outputs/
 │   └── figures/                    ← All charts exported as PNG (generated at runtime)
-├── index.html                      ← Minimal landing page
-├── style.css                       ← Minimal styling (system fonts, CSS custom properties)
 └── README.md                       ← This file
 ```
 
