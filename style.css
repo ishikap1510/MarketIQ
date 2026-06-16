@@ -5,13 +5,11 @@
   --charcoal: #2D2D2D;
   --border: #E8DDD6;
 }
-
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 body {
   background: var(--cream);
   color: var(--charcoal);
@@ -23,7 +21,6 @@ body {
   justify-content: center;
   padding: 3rem 1.5rem;
 }
-
 main {
   max-width: 720px;
   width: 100%;
@@ -31,31 +28,26 @@ main {
   flex-direction: column;
   gap: 2.5rem;
 }
-
 header h1 {
   font-size: 2.2rem;
   font-weight: 700;
   letter-spacing: -0.02em;
   color: var(--charcoal);
 }
-
 header .subtitle {
   margin-top: 0.35rem;
   font-size: 1.05rem;
   color: var(--mauve);
 }
-
 .description p {
   color: #555;
   font-size: 0.97rem;
 }
-
 .tools {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
-
 .badge {
   background: var(--border);
   color: var(--charcoal);
@@ -65,21 +57,18 @@ header .subtitle {
   font-weight: 500;
   letter-spacing: 0.01em;
 }
-
 .findings h2 {
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 0.9rem;
   color: var(--charcoal);
 }
-
 .findings ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 0.85rem;
 }
-
 .findings li {
   padding: 0.85rem 1rem;
   border-left: 3px solid var(--peach);
@@ -88,15 +77,43 @@ header .subtitle {
   font-size: 0.93rem;
   color: #444;
 }
-
 .findings li strong {
   color: var(--charcoal);
 }
-
+.chart-wrap {
+  margin-top: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+}
+.chart-desc {
+  font-size: 0.88rem;
+  color: #777;
+  margin-top: 0.3rem;
+}
+.table-wrap {
+  margin-top: 1rem;
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+th {
+  padding: 0.6rem 1rem;
+  text-align: left;
+  background: var(--border);
+  font-weight: 600;
+}
+td {
+  padding: 0.55rem 1rem;
+  border-bottom: 1px solid #F0E8E0;
+}
 .cta {
   display: flex;
 }
-
 .btn {
   display: inline-block;
   background: var(--peach);
@@ -108,11 +125,9 @@ header .subtitle {
   font-weight: 600;
   transition: opacity 0.15s ease;
 }
-
 .btn:hover {
   opacity: 0.88;
 }
-
 footer {
   border-top: 1px solid var(--border);
   padding-top: 1.25rem;
